@@ -1,0 +1,38 @@
+---
+title: "embedded_execution"
+output: html_document
+---
+
+```{r setup, echo=FALSE}
+library(ORE)
+ore.connect(user = "ruser", host = "10.0.2.2",
+            password = "Welcome1#Welcome1#",
+            service_name = "pdb1.subnetdbcsad2.dbcsvcn.oraclevcn.com",all=TRUE) 
+
+```
+
+## ORE ejecución embebida
+
+En este notebook se va a demostrar las capacidades de ejecución embebida en base de datos.
+
+
+```{r}
+ore.is.connected()
+# List all tables
+ore.ls()
+
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+ore.is.connected()
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+asdf
+
