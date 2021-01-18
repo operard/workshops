@@ -1,5 +1,8 @@
 # Oracle Advanced Analytics (OAA) with OML4R and OML4Py
 
+## Machine Learning in Oracle
+
+https://github.com/operard/workshops/blob/master/oaa/Oracle'sMachineLearningPlatform_%20Master%20Data%20Science_20210118.pdf
 
 ## OAA Overview
 
